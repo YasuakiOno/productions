@@ -11,5 +11,4 @@ MySQLにて、データベース「DB_test」および、テーブル「memory�
 テーブル作成文：
 CREATE TABLE member (id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT, last_name VARCHAR(50), first_name VARCHAR(50), age TINYINT UNSIGNED, PRIMARY KEY (id) );
 
-# 使用方法
-4ファイルをApacheのDocumentRootに配置し、「list_DB.php」にアクセス
+
