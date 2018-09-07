@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="urf-8">
+  <title>DBへのデータ登録画面</title>
+</head>
+
+<body>
+  <div style="font-size:14px">DBへのデータ登録画面</div>
+
+  <hr>
+  ＊新規登録画面＊
+  <hr>
+  <!-- "list_DB.php"に戻る -->
+  { <a href="list_DB.php"> 戻る </a>}<br>
+
+  <form name="form1" method="post" action="list_DB.php">
+  氏：<br>
+  <input type="text" name="last_name">
+  <br>
+  名：<br>
+  <input type="text" name="first_name">
+  <br>
+  年齢：<br>
+  <input type="text" name="age">
+  <br>
+  <!-- "hidden"で、非表示データを送信 -->
+  <input type="hidden" name="action" value="insert">
+  <input type="submit" value="送信">
+  </form>
+
+</body>
+
+</html>
