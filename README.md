@@ -8,7 +8,7 @@ CentOS7 PHP7.2 MySQL5.7 Apache2.4
 
 ## 事前準備
 MySQLにて、データベース「DB_test」および、テーブル「memory」を作成
-<br>※MySQLのユーザ名、パスワード、ホスト名、DB名、は「MYDB.php」の情報から作成をお願いします。
+<br>※MySQLのユーザ名、パスワード、ホスト名、DB名、は「MYDB.php」に記載されている情報から作成をお願いします。
 
 
 ###### テーブル作成文：<br>
